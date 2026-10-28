@@ -1,0 +1,38 @@
+{
+  "task": "thymoma",
+  "steps": 2700,
+  "baseline_steps": 2700,
+  "batch_size": 8,
+  "train_visual": true,
+  "lambda_rank": 0.2,
+  "rank_mode": "global_mean",
+  "rank_aggregation": "positive_image_mean",
+  "head_spec": {
+    "decoder_variant": "doc1027"
+  },
+  "feature_noise_mode": "per_dimension_gaussian",
+  "feature_strengths": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "feature_detach_reference": false,
+  "image_synthetic_options": {
+    "modes": [
+      "bright",
+      "dark",
+      "gaussian_blur",
+      "local_noise",
+      "texture_replace",
+      "dilate",
+      "compress",
+      "blur_mix"
+    ]
+  },
+  "validate_every": 300,
+  "save_every": 100,
+  "preview_every": 100,
+  "source_condition": "auto",
+  "seed": 0,
+  "mode": "joint_synthetic"
+}

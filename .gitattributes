@@ -1,0 +1,4 @@
+* text=auto eol=lf
+# Preserve the historical source bytes recorded in SOURCE_MANIFEST.json.
+*.py -text
+*.json -text

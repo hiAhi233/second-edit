@@ -1,0 +1,1 @@
+{"mode":"image_synthetic","seed":0,"steps":2700,"baseline_steps":2700,"batch_size":8,"lambda_rank":0.0,"train_visual":false,"source_condition":"auto","image_synthetic_options":{"modes":["bright","dark","smooth_noise","blur_mix","texture_replace","dilate","compress"]}}

@@ -1,0 +1,421 @@
+{
+  "scope": "Current document-1027 implementation plus exact seed-0 staged experiment configs; no medical data, learned weights or patient manifests",
+  "original_files": [
+    {
+      "file": "paclip/config.py",
+      "sha256": "c15c3836e9fb26fe41fba14906b3ebf8636dc50d7a4af86aceba6740e19fac93"
+    },
+    {
+      "file": "paclip/implementation_identity.py",
+      "sha256": "0111c04c7346499792c73a51288eeee8f8cda3a21c60c58c4e4333a4211b0fc8"
+    },
+    {
+      "file": "paclip/losses.py",
+      "sha256": "4b28366790fb4eb47f87a8c5607af21befdbf83d8081e2345e95f3f45c195e9f"
+    },
+    {
+      "file": "paclip/losses_novelty.py",
+      "sha256": "08b26ca7638c2204e6df62f15488e1ec0a69f0ae3daaad4880e068482648b774"
+    },
+    {
+      "file": "paclip/paths.py",
+      "sha256": "aa5258a66343a02f438518599c5f4b50e9b35507a533bc1dbba7322dc5c55e2f"
+    },
+    {
+      "file": "paclip/__init__.py",
+      "sha256": "3d08a829fab452f208a2966bb31a7355e45f251a54ab94be647fdc82b7a87079"
+    },
+    {
+      "file": "paclip/__main__.py",
+      "sha256": "a844d532ca59690e25fdb845b633bbb6f59eb811d34147ace2aeb8070ab19df4"
+    },
+    {
+      "file": "paclip/cli/brain.py",
+      "sha256": "9059d696403d50524e477c88553c878fc690a0933de91e2c641906f9bb5254d3"
+    },
+    {
+      "file": "paclip/cli/brain_memory.py",
+      "sha256": "5be550f3938b35435e868b64a1577dc7b2986acb6be577283d6e89d5bef8194b"
+    },
+    {
+      "file": "paclip/cli/brain_structure.py",
+      "sha256": "301f8a28068b2683c7a586d6f0b7b98167ba3fa3fd220e6aff63aafb37ef4b31"
+    },
+    {
+      "file": "paclip/cli/brain_structure_cached.py",
+      "sha256": "05444bbe23861bc154ccb7c539fc42e035c0fc807c1024c725fc0a059ecb18b6"
+    },
+    {
+      "file": "paclip/cli/gallery_thymoma.py",
+      "sha256": "77d70a2e32881bfd21a3cecd832b8d19d36ca8b8fd320f25ebfd7beb984bb0e3"
+    },
+    {
+      "file": "paclip/cli/heatmaps.py",
+      "sha256": "ac7f8d1f5140039090e243cfb4357308f6e2bd1f689662b1e93ba0e526b58809"
+    },
+    {
+      "file": "paclip/cli/prepare_brain.py",
+      "sha256": "d764badd7ebb4aa5f709e4a2caec03bc62d6c6b2b4f13f751b2094c82419600b"
+    },
+    {
+      "file": "paclip/cli/prepare_thymoma_ad.py",
+      "sha256": "d88fec99fd8920d5d7dc0a1f4a5ee47c1392435481812252c4115f13b96225b1"
+    },
+    {
+      "file": "paclip/cli/prepare_thymoma_roi.py",
+      "sha256": "58c121195eb5f1c386dc997dfca6bb7b98bc2a242ed589bdc856f6293a7fa455"
+    },
+    {
+      "file": "paclip/cli/summarize_thymoma.py",
+      "sha256": "ed70c84bcf32008bd57875110f273d0a7a65eae30e0567e5aa90ffabc24d6703"
+    },
+    {
+      "file": "paclip/cli/thymoma_ablation.py",
+      "sha256": "e6217599469bca70e75b67df5527e2030c9140dce9e54d81caffbffe923f82c3"
+    },
+    {
+      "file": "paclip/cli/thymoma_ad.py",
+      "sha256": "f9dc65023b9af537f7126809771bf0326490c1839c11252d37c47c2989b030f0"
+    },
+    {
+      "file": "paclip/cli/thymoma_roi.py",
+      "sha256": "0aa6d61ea5e883a66e7c82d817fe32e1eae4629e792f0ceb4cf40bf4af88336a"
+    },
+    {
+      "file": "paclip/cli/__init__.py",
+      "sha256": "2f1ced4f24e52c28dbeb3f65304654b84fbf087430b3782e5dffe376f16d882e"
+    },
+    {
+      "file": "paclip/data/datasets.py",
+      "sha256": "9bcf3f61450a396c85b0761a3a16f35201812bbc8ed5e89e3c5ab5b29529a4cb"
+    },
+    {
+      "file": "paclip/data/fewshot.py",
+      "sha256": "f534347be594d2018bb7faecdf5a41b98cc496ed2efe384a4a3be23d3a9c08d1"
+    },
+    {
+      "file": "paclip/data/mixed_sampling.py",
+      "sha256": "938035ebc5f617293c163a4c395bb28ce80210d1b86e6bce2e736dd348c2d26d"
+    },
+    {
+      "file": "paclip/data/novelty_dataset.py",
+      "sha256": "0082536d4b3bf9f26ca0da5692c3decb32258b80c6c0ee99f99df9d5ec4482f9"
+    },
+    {
+      "file": "paclip/data/patient_manifest.py",
+      "sha256": "28f960c3fffc08508841310fc765ed832ef96c40dbfe88b087a496a133af8953"
+    },
+    {
+      "file": "paclip/data/roi.py",
+      "sha256": "5a633db7914fdf91017bc08c179e753757c4e4e6d629055cb3bf468f82077e23"
+    },
+    {
+      "file": "paclip/data/sampling.py",
+      "sha256": "716374d618023c37e3c1f425dd3a28e03b228dcba5beb7d94eacb590749846b6"
+    },
+    {
+      "file": "paclip/data/slice_context.py",
+      "sha256": "a5e12a60c16ea7a6dd1ab7b0c240491738d3397052d3e05a8c0f38314f439edc"
+    },
+    {
+      "file": "paclip/data/supervision.py",
+      "sha256": "1526f7ecdf9381f86f97d46c1a04d1a73201adcfacb99e624f63ad96ff525eea"
+    },
+    {
+      "file": "paclip/data/synthetic_feature.py",
+      "sha256": "be3ef2faecfbef6cf42594485a9bd66aa92d1fbc0515804c7f7f87e590ae634e"
+    },
+    {
+      "file": "paclip/data/synthetic_image.py",
+      "sha256": "c23546af64da7f3847a728523af6f70370d128fb03cc2abbcda15ccf3e14f34e"
+    },
+    {
+      "file": "paclip/data/thymoma.py",
+      "sha256": "c09ec5c6120b974690c62d3e893bb8ad37ac2ed241d562014f75caf76d292605"
+    },
+    {
+      "file": "paclip/data/__init__.py",
+      "sha256": "6da6b5dcb61fdf3af3f2d1fdc11e9b570b0499f8aefb4d0361074240f6c219e0"
+    },
+    {
+      "file": "paclip/diagnostics/analyze_thymoma.py",
+      "sha256": "caf35170e88e07bfa6b748bf20ceae5fac1aa210ddee4874ade7412a67fefac0"
+    },
+    {
+      "file": "paclip/diagnostics/novelty_fixtures.py",
+      "sha256": "88a774e8fd2a55e80c2c25e44a74b877c07f7b7ca3ed76b9702c6dd5519462cf"
+    },
+    {
+      "file": "paclip/diagnostics/smoke_brain.py",
+      "sha256": "4bb60b2ed98d614fc035165d8d25402eebef4692315f08abcdd93a7face337b9"
+    },
+    {
+      "file": "paclip/diagnostics/smoke_novelty.py",
+      "sha256": "4cdb6abb8546ad2ed4dcb6b9c731841ce2837c606b6469d1fa52cb54615ffc1e"
+    },
+    {
+      "file": "paclip/diagnostics/smoke_text.py",
+      "sha256": "14320bdce9c4fede207ab37b4998dcb58b4733247bae872918ee1691769aecfd"
+    },
+    {
+      "file": "paclip/diagnostics/smoke_visual.py",
+      "sha256": "b861cd8cc280e71d53b2cb8cf026932cc6c5fa7ed6dcb75cb97d1281f7dbd0e4"
+    },
+    {
+      "file": "paclip/diagnostics/test_dense_localizer.py",
+      "sha256": "7cf9de51e2087a0be6c9846b2d269b9576db6ffc6492d609abd62a22a80fe67b"
+    },
+    {
+      "file": "paclip/diagnostics/test_doc1027_stages.py",
+      "sha256": "9d9b07347d72d984ca9a8de3e440baa5c6206072e36cc6f22ef657ececaa08ee"
+    },
+    {
+      "file": "paclip/diagnostics/test_e1.py",
+      "sha256": "ea4497204004f906edab04328508c18e43345b84d99c28cb48d5b2f5654b83c0"
+    },
+    {
+      "file": "paclip/diagnostics/test_e2.py",
+      "sha256": "00a044943e6f5edabc1659379330ed765085d6c35c702bb011953b07bcb27446"
+    },
+    {
+      "file": "paclip/diagnostics/test_e3.py",
+      "sha256": "837c3144e6e2b3601f835fefb54a43180aaf7b76fc70b788bea99c76ed56e0a5"
+    },
+    {
+      "file": "paclip/diagnostics/test_e3_cached.py",
+      "sha256": "752c8178fc24b2abdf890dfcdc0336bde5b04de6e31637e6fb416c3f222ef0bb"
+    },
+    {
+      "file": "paclip/diagnostics/test_novelty_entrypoints.py",
+      "sha256": "d5dcfd3a424dd926a7bf25bb2396a13df5b84807b6467aaae37f94ee096aeaf4"
+    },
+    {
+      "file": "paclip/diagnostics/test_novelty_protocol.py",
+      "sha256": "93d088638cb5474bd7749a69e4b675480fd1ee024037622a43023822682b6ba6"
+    },
+    {
+      "file": "paclip/diagnostics/test_novelty_review_fixes.py",
+      "sha256": "17835ea892ba016bc37f204b107c11a6bbdbaf451393c3e0f7061c6720b58afd"
+    },
+    {
+      "file": "paclip/diagnostics/test_patient_manifest.py",
+      "sha256": "261891c43f16d32b36e8e18a7a6a4128ad1ecbf5dc8cf53095fc76f06759b783"
+    },
+    {
+      "file": "paclip/diagnostics/test_synthetic_training.py",
+      "sha256": "65c15a7ae4a457bc1b3f8c4ceb94b0dada2bb61a5131de58a4663d16cfde5957"
+    },
+    {
+      "file": "paclip/diagnostics/text_cosine.py",
+      "sha256": "449b66bedcae31b07205508cc4e71c174b01974005fdf99e48430103708ee6aa"
+    },
+    {
+      "file": "paclip/diagnostics/__init__.py",
+      "sha256": "77191135cc4b4e78fb49f7492be6d68c90a8a18f87a4088e66b4f8b0ae3c49e7"
+    },
+    {
+      "file": "paclip/engine/consistency.py",
+      "sha256": "09defaf3206eebd3af68d74a80716ff232e1af8a0f59b6cc00b02314d216fa4d"
+    },
+    {
+      "file": "paclip/engine/inference.py",
+      "sha256": "35e37cf0f91447dd90ca22c930e28ec6476525b38fed4bb51e7490121cfbf0f7"
+    },
+    {
+      "file": "paclip/engine/novelty_cache.py",
+      "sha256": "b2ff47b6e1ab82a123762477cb9a620a32df9e1d5175a9666aed1e6ef15968c5"
+    },
+    {
+      "file": "paclip/engine/novelty_provenance.py",
+      "sha256": "4a0b3be5b61c9eb7dc73372734683defbccecc0d3fd590250a62a4b2e0ed54cc"
+    },
+    {
+      "file": "paclip/engine/novelty_trainer.py",
+      "sha256": "e30a4b1e7e473fb8d65e415784306617fd9860c52bf507bea02e045192290738"
+    },
+    {
+      "file": "paclip/engine/trainer.py",
+      "sha256": "aed74cd4893b63c31988cc5a00285ef065f1d7d5344c9e89c211fbc9b54fa146"
+    },
+    {
+      "file": "paclip/engine/__init__.py",
+      "sha256": "604931c37b6677258b1eedcde3952e86c180d598fa7e98c1822af9d3e7c67bb6"
+    },
+    {
+      "file": "paclip/evaluation/branch_calibration.py",
+      "sha256": "4a3a7b3494daf6404d308f97e9a680d2674c524c0026908f873ec5d3a4c04114"
+    },
+    {
+      "file": "paclip/evaluation/detection.py",
+      "sha256": "983c9b9fe8ff087ae1eb29555d9860a0f099a2840be03e1d96fd51c5bd6a8418"
+    },
+    {
+      "file": "paclip/evaluation/localization_budget.py",
+      "sha256": "25661f09603af5a87ef6363dfc18e74c9bd22d49b8bfb7506d00588de65e8adf"
+    },
+    {
+      "file": "paclip/evaluation/metrics.py",
+      "sha256": "1edc677607fa2fb7adeac4614c3998a37b9acfab8580ec8f20068a4266dcca43"
+    },
+    {
+      "file": "paclip/evaluation/novelty_baseline.py",
+      "sha256": "107ec6e3b26037b00d78d67c461b4287aba5162e631db4d433c800ac9eaeba04"
+    },
+    {
+      "file": "paclip/evaluation/novelty_protocol.py",
+      "sha256": "245155353e33b94cf7d59cc95cfdca14137defc79f31c0d2cd53ef4e7ca0cb87"
+    },
+    {
+      "file": "paclip/evaluation/postprocess.py",
+      "sha256": "58c0c95df9fb1577393bcb6c0adc2f3645381cf5b8a0541c23fe8fe99f68db81"
+    },
+    {
+      "file": "paclip/evaluation/protocol.py",
+      "sha256": "2ff004733ebccb5f8f00b3f119392383c64a1fdf84ba287d75f516bedf126fa5"
+    },
+    {
+      "file": "paclip/evaluation/ranking.py",
+      "sha256": "8c6178be9348b17c82f6004903736fa7025c865dea696109193f974f7cb0c3e4"
+    },
+    {
+      "file": "paclip/evaluation/visualization.py",
+      "sha256": "ce3902f03fa3f3c65f70c714cc7fcd8084ed09c7fb56d5781bbdbc5e623d58f7"
+    },
+    {
+      "file": "paclip/evaluation/__init__.py",
+      "sha256": "143d161470487b74c271a84890ede338dba2a61ea68a7e209a0aa3030dc905b7"
+    },
+    {
+      "file": "paclip/models/dense_localizer.py",
+      "sha256": "a1d432d94d84e2e32b43fa28da7ec74601b88c251959f63579d016d0a3169666"
+    },
+    {
+      "file": "paclip/models/normal_memory.py",
+      "sha256": "7b90c07193519ec9f628d0d0f5017b69235bb750b31878d05039401499b545bf"
+    },
+    {
+      "file": "paclip/models/novelty_model.py",
+      "sha256": "6d5bae229044533ac942c74df6c6a30e0297f4b52acefa4c2b42c87a8f2b4b70"
+    },
+    {
+      "file": "paclip/models/paclip.py",
+      "sha256": "5726db264defe68cce32246dbe7aa1f88dfd327e77802b58faa25bd1e289ee00"
+    },
+    {
+      "file": "paclip/models/structural_context.py",
+      "sha256": "3bb54c14618a61480c5c1ed3ed238793b74c9f42eb2c0888fcf2162a6cf949c4"
+    },
+    {
+      "file": "paclip/models/text_adapter.py",
+      "sha256": "c6ca6f0692d79b2ec1d90f2743429454e4085ba7ce17891e2b12a9bf2c804b44"
+    },
+    {
+      "file": "paclip/models/text_inlayer.py",
+      "sha256": "3f9e2bfdb02eaa6c3ede21d338c1d1d322e2e13bd40f697518bded9eee27d161"
+    },
+    {
+      "file": "paclip/models/visual_inlayer.py",
+      "sha256": "73b53473647accbaec614dfd2a82f8baccca81ef807585bb26fe10e3ae5f8f6f"
+    },
+    {
+      "file": "paclip/models/__init__.py",
+      "sha256": "69c293e625780a75697ddcfdb19393ce34fa7533033e7dc616b3f00df2293c4e"
+    },
+    {
+      "file": "paclip/prompts/base.py",
+      "sha256": "88759d73f11713cae5e3bd707c75cf6ae230f808aeb5f42358d56cde7ee073c9"
+    },
+    {
+      "file": "paclip/prompts/brain.py",
+      "sha256": "e0cb385f5988ee60733853ab0e7ee85e076156939c3f8e55f35f5427ce1549ae"
+    },
+    {
+      "file": "paclip/prompts/pneumonia.py",
+      "sha256": "85075cfedc1d9c11e23197a0237829a3ba60f93dad4311ed11437ecc7d03c0ec"
+    },
+    {
+      "file": "paclip/prompts/thymoma.py",
+      "sha256": "5ffc453ac2ccc27db8c0339faae6e5961d4973f7cc15162098ccf67b6761f92c"
+    },
+    {
+      "file": "paclip/prompts/__init__.py",
+      "sha256": "d64b13fb101285f52356397f95557e287ff013edb13e5d2be45216561aaf0b3f"
+    },
+    {
+      "file": "run_brain_novelty.py",
+      "sha256": "4677306970990dcad37d602d3acf5251a41bf4c2196795c9535a96c19a9db805"
+    },
+    {
+      "file": "prepare_patient_splits.py",
+      "sha256": "6388df072946f4631e6791f1ebd9439d4cc69c11e6573bea6fb8dda3368e0971"
+    },
+    {
+      "file": "report_brain_novelty.py",
+      "sha256": "c5d5d9c6032161e24c89d66bf160c257ff004c1859c6c545d70d60e745a7ee77"
+    },
+    {
+      "file": "report_brain_e3.py",
+      "sha256": "575ca5c2f3477f20c0327eb13a5e785d473d31ec76bd780d5484af5685918124"
+    },
+    {
+      "file": "configs/novelty/dense_only.json",
+      "sha256": "9772325ad5d1f504f37ac51c7628434782e1fec858f6eea76c63bd7d33568f02"
+    },
+    {
+      "file": "configs/novelty/feature_synthetic.json",
+      "sha256": "61e050dc139e7c10134357ed969bb7a1099345bef945ca0c2e7cbd5eaef23448"
+    },
+    {
+      "file": "configs/novelty/image_extended.json",
+      "sha256": "57884bca3fc01e36c48e9f1a36914446bdbc697227a0ad4a0f98440cf136481c"
+    },
+    {
+      "file": "configs/novelty/image_synthetic.json",
+      "sha256": "b7b167833ebd9875b904583dac911ad2cd3a81ccf8d2cb83acdf86ed94dc3031"
+    },
+    {
+      "file": "configs/novelty/joint_synthetic.json",
+      "sha256": "a2c59fd827bf2c5cc7df850376ae3fbcd9993dbed9790fb78a8dbd4b35024d63"
+    },
+    {
+      "file": "configs/novelty/joint_visual_tuning.json",
+      "sha256": "f964273f8e4861585d81ef177bf8642c886627631e85c55cea2abab78e8f00ac"
+    },
+    {
+      "file": "configs/novelty/ratio_control.json",
+      "sha256": "38b07e68ebc08c9b4f684020c081e71ff984ea86d04f756b27753676dadfe7db"
+    }
+  ],
+  "exported_configs": [
+    {
+      "file": "configs/doc1027_staged/dense_only.json",
+      "sha256": "4ba3618d93937edcc4cddcdf286f6e65b977a64b253e264de05df695eb9e2d5d",
+      "matches_saved_training_config_after_defaults": true
+    },
+    {
+      "file": "configs/doc1027_staged/feature_synthetic.json",
+      "sha256": "3b9c506f952a4e9ae742f52cce6cb4780accb11a3fcae5d7fc0a63808caa25f4",
+      "matches_saved_training_config_after_defaults": true
+    },
+    {
+      "file": "configs/doc1027_staged/image_synthetic.json",
+      "sha256": "3cc653a7812e72f019e8f9e8819af78269c970f9c1c0b63241c5a423b6b94b6f",
+      "matches_saved_training_config_after_defaults": true
+    },
+    {
+      "file": "configs/doc1027_staged/joint_rank.json",
+      "sha256": "b3d13799aa5220e4fa75536905b5d02998a1f44d3b24c30d5ae0951b4f93db9e",
+      "matches_saved_training_config_after_defaults": true
+    },
+    {
+      "file": "configs/doc1027_staged/joint_synthetic.json",
+      "sha256": "3bb2dd426044c5bfbbb7a30c11459fc5d87872a42e5548ce233688b9b087bfe4",
+      "matches_saved_training_config_after_defaults": true
+    },
+    {
+      "file": "configs/doc1027_staged/ratio_control.json",
+      "sha256": "280055544201e4476c0e89529450e7f7bd3dfecb1468838d36c885637480d050",
+      "matches_saved_training_config_after_defaults": true
+    }
+  ]
+}
